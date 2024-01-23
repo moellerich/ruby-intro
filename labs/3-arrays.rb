@@ -15,3 +15,27 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# store my list
+my_list = ["milk", "bacon", "beer"]
+
+# store my friend's list
+friend_list = ["kale", "beans", "tofu", "beer"]
+
+# combine the lists
+combined_list = my_list + friend_list
+
+# remove the non-unique items
+unique_list = combined_list.uniq
+
+# put the list in alphabetical order
+sorted_list = unique_list.sort
+
+# write the items to the screen
+puts "Buy #{sorted_list[0]}"
+puts "Buy #{sorted_list[1]}"
+puts "Buy #{sorted_list[2]}"
+puts "Buy #{sorted_list[3]}"
+puts "Buy #{sorted_list[4]}"
+puts "Buy #{sorted_list[5]}"
+
